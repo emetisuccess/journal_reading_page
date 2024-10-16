@@ -11,7 +11,7 @@
  flex-direction: column;
 }
 
-.navbar {
+.navbar__header {
  padding: 20px 0;
  background-color: lightgray;
  margin: 0 auto;
