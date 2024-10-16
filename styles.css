@@ -1,0 +1,98 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+/* Header section */
+.main__container {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+}
+
+.navbar {
+ padding: 20px 0;
+ background-color: lightgray;
+ margin: 0 auto;
+ width: 100%;
+ height: 60px;
+}
+
+.navbar_content {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ height: 100%;
+ padding: 0 120px;
+}
+
+/* Body section */
+.container {
+ margin: 0 auto;
+ width: 100%;
+}
+
+.content {
+ padding: 0px 120px;
+ width: 100%;
+ display: flex;
+ margin: 0 auto;
+ justify-content: space-between;
+}
+
+.content .left__bar {
+ width: 300px;
+}
+
+.content .content__item {
+ width: 100%;
+ padding: 2px 5px 5px 5px;
+}
+
+.content .right__bar {
+ width: 400px;
+}
+
+.title,
+.authors,
+.affiliation,
+.journal__info {
+ margin-bottom: 7px;
+}
+/* Body Section End */
+
+/* Footer Section */
+.footer__container {
+ width: 100%;
+ margin: 0 auto;
+
+ background-color: lightgray;
+}
+
+.footer {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 30px 140px;
+}
+
+@media only screen and (max-width: 1300px) {
+ .d_none_c {
+  display: none;
+ }
+}
+
+@media only screen and (max-width: 993px) {
+ .d_none_c {
+  display: none;
+ }
+
+ .content {
+  padding: 0px 120px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+ }
+}
