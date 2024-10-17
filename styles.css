@@ -28,9 +28,10 @@
 }
 
 /* Body section */
-.container {
+.container__wrapper {
  margin: 0 auto;
  width: 100%;
+ padding-top: 50px;
 }
 
 .content {
@@ -43,15 +44,22 @@
 
 .content .left__bar {
  width: 300px;
+ border-right: 1px solid lightgray;
 }
 
 .content .content__item {
  width: 100%;
  padding: 2px 5px 5px 5px;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
 }
 
 .content .right__bar {
  width: 400px;
+ border-left: 1px solid lightgray;
+ display: flex;
+ justify-content: center;
 }
 
 .title,
@@ -59,6 +67,22 @@
 .affiliation,
 .journal__info {
  margin-bottom: 7px;
+}
+
+.section .left__sidebar_items {
+ list-style-type: none;
+ line-height: 25px;
+ margin: 0;
+ padding: 0;
+}
+
+.section .left__sidebar_items > li > a {
+ list-style-position: outside;
+ color: #000;
+}
+
+.figure .figure_images > a {
+ /*  */
 }
 /* Body Section End */
 
