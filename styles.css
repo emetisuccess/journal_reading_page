@@ -100,11 +100,10 @@
 }
 /* Body Section End */
 
-/* Footer Section */
+/*======================= Footer Section================== */
 .footer__container {
  width: 100%;
  margin: 0 auto;
-
  background-color: lightgray;
 }
 
@@ -122,7 +121,7 @@
  }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1050px) {
  .d_none_c {
   display: none;
  }
